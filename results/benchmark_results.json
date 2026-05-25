@@ -1,0 +1,23 @@
+{
+    "modelo": "distilgpt2",
+    "cuda_disponivel": false,
+    "flashattention_2_ativo": false,
+    "benchmarks": [
+        {
+            "use_cache": false,
+            "tempo_execucao_segundos": 0.27,
+            "pico_vram_mb": 0,
+            "tokens_entrada": 250,
+            "tokens_gerados": 1,
+            "amostra_saida": "    O paciente apresenta histórico clínico complexo,\n    sintomas respiratórios persistentes,\n    alterações laboratoriais e necessidade\n    de acompanhamento multidisciplinar.\n    \n\n    Resumo:\n     "
+        },
+        {
+            "use_cache": true,
+            "tempo_execucao_segundos": 0.23,
+            "pico_vram_mb": 0,
+            "tokens_entrada": 250,
+            "tokens_gerados": 1,
+            "amostra_saida": "    O paciente apresenta histórico clínico complexo,\n    sintomas respiratórios persistentes,\n    alterações laboratoriais e necessidade\n    de acompanhamento multidisciplinar.\n    \n\n    Resumo:\n     "
+        }
+    ]
+}
